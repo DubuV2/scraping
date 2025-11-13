@@ -2,6 +2,7 @@ Book Explorer
 
 A Streamlit web app that scrapes data from https://books.toscrape.com
 and lets you explore it interactively with filters, charts, and exports.
+This project is built for learning and training purposes.
 
 Features
 
