@@ -373,7 +373,7 @@ with tab_explore:
         cats = sorted(df["Category"].dropna().unique()) if "Category" in df else []
         sel_cats = st.sidebar.multiselect("Category", cats)
         ratings = sorted(df["Star Rating"].dropna().unique()) if "Star Rating" in df else []
-        sel_ratings = st.sidebar.multiselect("Notes", ratings)
+        sel_ratings = st.sidebar.multiselect("Ratings", ratings)
         if "Price" in df:
             pmin, pmax = float(df["Price"].min()), float(df["Price"].max())
             sel_price = st.sidebar.slider("Price Range", pmin, pmax, (pmin, pmax))
