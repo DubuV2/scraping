@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.DS_Store
+
+# Envs
+venv/
+.env
+
+# Data files
+data/*.csv
+data/*.json
+data/*.db
+
+# Streamlit
+.streamlit/
+
